@@ -60,6 +60,7 @@
   text-decoration: none;
   margin-right: 10px;
   opacity: 1;
+  text-align: center;
   transition: all ease 0.2s;
 }
 
@@ -71,9 +72,6 @@
 .featured--watchbutton {
   background-color: #fff;
   color: #000;
-}
-.featured--watchbutton svg {
-  align-self: center;
 }
 
 .featured--mylistbutton {

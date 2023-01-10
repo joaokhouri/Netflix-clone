@@ -1,4 +1,3 @@
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import './FeatureMovie.css';
 
 const FeatureMovie = ({ item }) => {
@@ -35,7 +34,7 @@ const FeatureMovie = ({ item }) => {
             <div className="featured--description">{description}</div>
             <div className="featured--buttons">
               <a href={`/watch/${item.id}`} className="featured--watchbutton">
-                <PlayArrowIcon /> Assistir
+                ▶ Assistir
               </a>
               <a
                 href={`/list/add/${item.id}`}
